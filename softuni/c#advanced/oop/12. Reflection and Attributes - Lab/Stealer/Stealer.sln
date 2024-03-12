@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stealer", "Stealer\Stealer.csproj", "{ACD6FEBF-FC2D-419D-BA8E-C29CFF22A00E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorProblem", "AuthorProblem\AuthorProblem.csproj", "{6A76C4EC-F9FA-4B8D-A303-B37FA744CA1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD6FEBF-FC2D-419D-BA8E-C29CFF22A00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD6FEBF-FC2D-419D-BA8E-C29CFF22A00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD6FEBF-FC2D-419D-BA8E-C29CFF22A00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD6FEBF-FC2D-419D-BA8E-C29CFF22A00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A76C4EC-F9FA-4B8D-A303-B37FA744CA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A76C4EC-F9FA-4B8D-A303-B37FA744CA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A76C4EC-F9FA-4B8D-A303-B37FA744CA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A76C4EC-F9FA-4B8D-A303-B37FA744CA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCDDCBCD-EC67-4F90-B52C-BBAAD7AC5F84}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles", "Vehicles\Vehicles.csproj", "{EBC21369-A594-4E55-B174-5FEE823A3E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raiding", "Raiding\Raiding.csproj", "{AD1C1C14-2AC3-44CC-B45C-4B8A30296762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildFarm", "WildFarm\WildFarm.csproj", "{0B118BCB-F7C0-4DD8-993E-F31F005A3803}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC21369-A594-4E55-B174-5FEE823A3E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC21369-A594-4E55-B174-5FEE823A3E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC21369-A594-4E55-B174-5FEE823A3E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC21369-A594-4E55-B174-5FEE823A3E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1C1C14-2AC3-44CC-B45C-4B8A30296762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1C1C14-2AC3-44CC-B45C-4B8A30296762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1C1C14-2AC3-44CC-B45C-4B8A30296762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1C1C14-2AC3-44CC-B45C-4B8A30296762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B118BCB-F7C0-4DD8-993E-F31F005A3803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B118BCB-F7C0-4DD8-993E-F31F005A3803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B118BCB-F7C0-4DD8-993E-F31F005A3803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B118BCB-F7C0-4DD8-993E-F31F005A3803}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B837161D-E0F4-45F8-B7C7-CD18B86CD542}
+	EndGlobalSection
+EndGlobal
