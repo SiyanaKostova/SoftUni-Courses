@@ -1,0 +1,88 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.boxes
+{
+    background-image: url(image/background.jpg);
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 80vh;
+    background-position: center -70em;
+    display: flex;
+
+    justify-content: center;
+    gap: 3em;
+    align-items: center;
+
+}
+.basic,.standard,.premium
+{
+    background-color: white;
+    padding: 30px 30px;
+    flex: 0 0 25%;
+
+}
+.title
+{
+    padding-bottom: 25px;
+
+}
+.dollar, .monthly
+{
+    font-size: small;
+    font-weight: 200;
+}
+.price
+{
+    padding-bottom: 25px;
+}
+p
+{
+    font-size: small;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+ul {
+    list-style: none;
+  }
+li
+{
+    margin-bottom: 10px;
+}
+button
+{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 8px 12px;
+    margin-top: 20px;
+}
+
+.basic, .premium
+{
+
+    height: 475px;
+}
+.tashak
+{
+    margin-top: 67px;
+}
+.standard
+{
+    height: 500px;
+}
+.tashak2
+{
+    margin-top: 50px;
+}
+
+.basic:hover, .standard:hover, .premium:hover {
+    transform: scale(1.02);
+}

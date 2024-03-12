@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.viewport {
+    height: 50vh;
+    background: #eee;
+    overflow: hidden;
+    position: relative;
+}
+
+.card {
+    display: block;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.5em;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+}
+
+.viewport:nth-child(1){
+    background: linear-gradient(90deg, rgba(213,150,237,0.5383403361344538) 35%, rgba(0,159,255,1) 100%);
+}
+
+.viewport:nth-child(2){
+    background: linear-gradient(0deg, rgba(25,168,170,1) 0%, rgba(255,175,3,1) 100%);
+}
+
+.card .icons {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+}
+
+.card .icons svg {
+    fill: #fff;
+    width: 2em;
+}

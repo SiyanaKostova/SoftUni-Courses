@@ -1,0 +1,164 @@
+@import url(reset.css);
+@import url(typography.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+#site {
+    margin: 0 auto;
+    max-width: 1100px;
+    background-color: #FFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.nav-main ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.nav-main ul a {
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.first-btn {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.second-btn {
+    background-color: #ade2df;
+    border-radius: 10%;
+    border: none;
+    padding: 10px;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ade2df;
+}
+.first-section-title {
+    margin-top: 50px;
+}
+.first-button-1,.first-button-2 {
+    font-size: 10px;
+    color: #FFF;
+    background-color: #000;
+    padding: 12px 10px;
+    border-radius: 1em;
+    margin-bottom: 50px;
+}
+
+.fa-brands {
+    margin-right: 5px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 div {
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 23%;
+    border-left: 1px solid #dbdbdb;
+    padding: 30px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section2 div h3 {
+    text-align: center;
+}
+
+.section2 div p {
+    text-align: center;
+}
+
+.section3 {
+    background-color:#ade2df ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.section3 a {
+    text-decoration: none;
+    background-color:#ade2df ;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.section3 img {
+    border-style: dashed;
+    border: 1px dashed #a3cdcb;
+    margin-left:200px;
+    max-height: 450px;
+}
+
+.section3 .second-part {
+    margin: 30px 60px;
+}
+
+.section4
+{
+    background-color: #f3f5fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 h2 {
+    margin-bottom: 50px;
+    font-size: 34px;
+}
+.section4 .btn {
+    background-color:#ade2df;
+    margin: 30px;
+    border-radius: 0.6em;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #ade2df;
+}
+
+#sec, #sec h1, #sec p{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.section6 {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.list
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 18px;
+    padding: 10px;
+}

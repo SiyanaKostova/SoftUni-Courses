@@ -1,0 +1,21 @@
+body, ul, li {
+    display: flex;
+}
+
+ul {
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul, li {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    border: 10px solid black;
+    box-shadow: 0 0 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+  }

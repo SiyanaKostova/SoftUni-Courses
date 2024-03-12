@@ -1,0 +1,162 @@
+/* 
+bg-#efefef
+sivo - #909090
+heading - #222222
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+}
+
+.page-section .title {
+    font-weight: normal;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.page-section .desc {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.page-section .divider.vertical {
+    height: 6rem;
+    width: 1px;
+    background-color: #222222;
+}
+
+.page-section {
+    max-width: 1880px;
+    margin: 1.5rem auto;
+    background-color: #efefef;
+    height: calc(100vh - 1.5rem);
+    padding: 3rem 5rem;
+    overflow: hidden;
+}
+
+.section-flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-flexed .section-info {
+    flex: 0 0 50%;
+}
+
+.section-flexed .section-img {
+    flex: 0 1 45%;
+}
+
+svg.hero{
+    width: 1em;
+    margin-left: 0.5em;
+}
+
+#hero.section-flexed {
+    position: relative;
+}
+
+#hero .navigation {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#hero .hero-img {
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    right: 5rem;
+}
+
+#camera .socials {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+#camera .socials .social {
+    width: 3rem;
+    height: 3rem;
+    background-color: #909090;
+    color: white;
+    position: relative;
+}
+
+#camera .socials .social svg {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+}
+
+#gallery {
+    display: flex;
+    align-items: center;
+}
+
+#gallery .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    list-style: none;
+}
+
+#gallery .list .picture:hover{
+    transform: scale(1.5);
+}
+
+#contacts .form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "email subject"
+    "msg msg"
+    "submit submit";
+    gap: 1rem;
+}
+
+#contacts .form input, #contacts .form textarea{
+    background-color: transparent;
+    border: 1px solid #222222;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+#contacts .form textarea {
+    resize: none;
+}
+
+#contacts .form .email{
+    grid-area: email;
+}
+#contacts .form .subject{
+    grid-area: subject;
+}
+#contacts .form .msg{
+    grid-area: msg;
+}
+
+#contacts .form .btn {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px solid #222222;
+    background-color: #222222;
+    color: white;
+    grid-area: submit;
+}
